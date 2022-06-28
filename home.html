@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="home.css">
+    <title>The wonder Server</title>
+</head>
+<body>
+    <!-- Header -->
+    <header class="bg1">
+        <nav class="navbar">
+        <a href="#" onclick="dropDown()" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+            <div class="navbar-links">
+                <ul>
+                    <li><a class="active" href="https://thewonderserver.com/home">Home</a></li>
+                    <li><a href="mailto:contact@thewonderserver.com">Contact</a></li>
+                    <li><a href="https://thewonderserver.com/rules">Rules</a></li>
+                    <li><a href="https://discord.gg/updyeCyXTN">Discord</a></li>
+                    <i class="fa-brands fa-twitter fa-2xl" onclick="twitterRedirect()"></i>
+                </ul>
+            </div>
+        </nav>
+        <div class="header-container">
+            <h1 class="logoTWS">The Wonder Server</h1>
+            <h4 class="slg">Magic's got it all!</h4>
+        </div>
+    </header>
+    <!-- Mickey dialogue -->
+    <div class="mickey-container">
+        <img src="Images/Mickeyskin.png" alt="Mickey">
+        <div class="text-container">
+            <h3 class="title">Hey, Im Mickey and welcome to <a class="color">The Wonder Server!</a></h3>
+            <p class="tex">Please check out the rules of our magestic world before visiting, we don’t want any party poopers!<br>
+                It’s fairly straightforward so don’t hesitate to check it out. Hope to see you all very soon!</p>
+            <button class="btn" onclick="rulesRedirect()">The Rules</button>
+        </div>
+    </div>
+    <!-- Donald dialogue -->
+    <div class="donald-container">
+        <div class="text-container">
+            <h3 class="title"><a class="color">Aw, Phooey!</a> I wish I could’ve done Mickeys line!</h3>
+            <p class="tex">Anyways I’m just so happy that you’re here! If you’d like to get awesome cosmetics or a shiney rank infront of your name, <br>
+                check out the store! Its full of magestic items and ranks that I’m sure you’ll enjoy!</p>
+            <button class="btn" onclick="storeRedirect()">The store</button>
+        </div>
+        <img src="Images/DonaldSkin.png" alt="Donald">
+    </div>
+    <!-- Footer section -->
+    <footer>
+        <div class="footer-container">
+            <h3>The Wonder Server</h3>
+                <section>
+                    <h5>Links</h5>
+            <div class="links-container">
+                    <div class="collumn1-container">
+                        <a href="https://thewonderserver.com/home">Home</a>
+                        <a href="mailto:contact@thewonderserver.com">Contact</a>
+                        <a href="https://thewonderserver.com/rules">Rules</a>
+                        <a href="https://discord.gg/updyeCyXTN">Discord</a>
+                    </div>
+                    <div class="collumn2-container">
+                        <a href="https://store.thewonderserver.com/">Store</a>
+                        <a href="https://twitter.com/@TheWonderServer">Twitter</a>
+                        <a href="https://thewonderserver.com/tos">Terms of service</a>
+                        <a href="https://thewonderserver.com/privacy">Privacy policy</a>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="home.js"></script>
+</html>

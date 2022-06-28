@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="discord.css">
+    <title>The Wonder Server</title>
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#" onclick="dropDown()" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+            <div class="navbar-links">
+                <ul>
+                    <li><a href="https://thewonderserver.com/home">Home</a></li>
+                    <li><a href="mailto:contact@thewonderserver.com">Contact</a></li>
+                    <li><a href="https://thewonderserver.com/rules">Rules</a></li>
+                    <li><a href="https://discord.gg/updyeCyXTN">Discord</a></li>
+                    <i class="fa-brands fa-twitter fa-2xl" onclick="twitterRedirect()"></i>
+                </ul>
+            </div>
+        </nav>
+        <h1 class="header">Discord Rules</h1>
+        <div class="rules-container">
+            <div class="rules">
+                <p id="hover" onclick="openRule1()">Be respectful</p>
+                <p id="1" class="rule">The wonder Server is a place where you can have fun with your friends, so be respectful to all players. These rules are in place to maintain a welcoming and safe environment for all players.</p>
+            </div>
+            <div class="rules">
+                <p id="hover" onclick="openRule2()">Use common sense</p>
+                <p id="2" class="rule">As long as you think about what you say, no one will get hurt so use common sense.</p>
+            </div>
+            <div class="rules">
+                <p id="hover" onclick="openRule3()">Privacy & Account security</p>
+                <p id="3" class="rule">All users are responsible for their own accounts and personal information. Members also take full responsibility for any actions which may occur on their accounts. DO NOT share any of your account or personal information with anyone!</p>
+            </div>
+            <div class="rules">
+                <p id="hover" onclick="openRule4()">Listen to staff</p>
+                <p id="4" class="rule">Staff is here to keep the discord server orginsized, so listen to them and don't try to argue with them. (If you do think you're wrongfully punished contact contact@thewonderserver.com)</p>
+            </div>
+            <div class="rules">
+                <p id="hover" onclick="openRule5()">Appropriate channels</p>
+                <p id="5" class="rule">Channels each have its purpose, if your conversation is drifting off from the topic of the channel, please move to #general where all appropriate topics are allowed.</p>
+            </div>
+            <div class="rules">
+                <p id="hover" onclick="openRule6()">What isn’t allowed?</p>
+                <p id="6" class="rule"><a id="bold">Inappropriate chatting</a><br>
+                    Abusive language, inappropriate topics or jokes, misleading information, or any kind of spam.<br><br>
+                    
+                    <a id="bold">Advertisements</a><br>
+                    Advertising third-party websites, servers, social media, or giveaways (Content creator role bypass).<br><br>
+                    
+                    <a id="bold">Threats</a><br>
+                    Threatening to or actively doxing, DDOSing, harassing or blackmailing others, sharing personal information, or sending malicious links.<br><br>
+                    
+                    <a id="bold">Account Abuse</a><br>
+                    Selling, trading, giving away any accounts, or sharing accounts between players.<br><br>
+                    
+                    <a id="bold">Inappropriate Content</a><br>
+                    Don't send any gore/nsfw links, media or have a innapropriate username.<br><br>
+            </div>
+        </div>
+        <footer>
+            <div class="footer-container">
+                <h3>The Wonder Server</h3>
+                    <section>
+                        <h5>Links</h5>
+                <div class="links-container">
+                        <div class="collumn1-container">
+                            <a href="https://thewonderserver.com/home">Home</a>
+                            <a href="mailto:contact@thewonderserver.com">Contact</a>
+                            <a href="https://thewonderserver.com/rules">Rules</a>
+                            <a href="https://discord.gg/updyeCyXTN">Discord</a>
+                        </div>
+                        <div class="collumn2-container">
+                            <a href="https://store.thewonderserver.com/">Store</a>
+                            <a href="https://twitter.com/@TheWonderServer">Twitter</a>
+                            <a href="https://thewonderserver.com/tos">Terms of service</a>
+                            <a href="https://thewonderserver.com/privacy">Privacy policy</a>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </footer>
+</body>
+<script src="discord.js"></script>
+</html>

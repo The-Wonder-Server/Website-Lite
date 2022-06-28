@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>The Wonder Server</title>
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#" onclick="dropDown()" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+            <div class="navbar-links">
+                <ul>
+                    <li><a href="https://thewonderserver.com/home">Home</a></li>
+                    <li><a href="mailto:contact@thewonderserver.com">Contact</a></li>
+                    <li><a href="https://thewonderserver.com/rules">Rules</a></li>
+                    <li><a href="https://discord.gg/updyeCyXTN">Discord</a></li>
+                    <i class="fa-brands fa-twitter fa-2xl" onclick="twitterRedirect()"></i>
+                </ul>
+            </div>
+        </nav>
+        <h1 class="header">Rules</h1>
+        <div class="rules-container">
+            <div class="rules">
+                <p id="hover" onclick="openRule1()">How do we expect you to behave?</p>
+                <p id="1" class="rule">The wonder Server is a place where you can have fun with your friends, so be respectful to all players. These rules are in place to maintain a welcoming and safe environment for all players.</p>
+            </div>
+            <div class="rules">
+                <p id="hover" onclick="openRule2()">How to report a rule-breaking player?</p>
+                <p id="2" class="rule">To report a player use the command /report {username}. This will give our staff a notification and they will do their best to resolve your issue.</p>
+            </div>
+            <div class="rules">
+                <p id="hover" onclick="openRule3()">Privacy & Account security</p>
+                <p id="3" class="rule">All players are responsible for their own accounts and personal information. Players also take full responsibility for any actions which may occur on their accounts. DO NOT share any of your account or personal information with anyone!</p>
+            </div>
+            <div class="rules">
+                <p id="hover" onclick="openRule4()">What isn’t allowed?</p>
+                <p id="4" class="rule"><a id="bold">Chat Abuse</a><br>
+                    Abusive language, inappropriate topics or jokes, misleading information, or any kind of spam (including switching locations).<br><br>
+                    
+                    <a id="bold">Advertisements</a><br>
+                    Advertising third-party websites, servers, social media, or giveaways (Content creator role bypass).<br><br>
+                    
+                    <a id="bold">Threats</a><br>
+                    Threatening to or actively doxing, DDOSing, harassing or blackmailing others, sharing personal information, or sending malicious links.<br><br>
+
+                    <a id="bold">Unfair Advantages</a><br>
+                    Disallowed modifications, macros, bug abuse, exploiting, boosting, scripting, or punishment evading.<br><br>
+                    
+                    <a id="bold">Account Abuse</a><br>
+                    Selling, trading, giving away any accounts, or sharing accounts between players.<br><br>
+                    
+                    
+                    <a id="bold">Inappropriate Content and Cosmetics</a><br>
+                    Inapproriate capes, skins, usernames.<br><br>
+                    
+                    <a id="bold">Game Trading</a><br>
+                    Trading game content, items, currency, services or accounts via third party websites, or external/outside game trading.</p>
+            </div>
+        </div>
+        <footer>
+            <div class="footer-container">
+                <h3>The Wonder Server</h3>
+                    <section>
+                        <h5>Links</h5>
+                <div class="links-container">
+                        <div class="collumn1-container">
+                            <a href="https://thewonderserver.com/home">Home</a>
+                            <a href="mailto:contact@thewonderserver.com">Contact</a>
+                            <a href="https://thewonderserver.com/rules">Rules</a>
+                            <a href="https://discord.gg/updyeCyXTN">Discord</a>
+                        </div>
+                        <div class="collumn2-container">
+                            <a href="https://store.thewonderserver.com/">Store</a>
+                            <a href="https://twitter.com/@TheWonderServer">Twitter</a>
+                            <a href="https://thewonderserver.com/tos">Terms of service</a>
+                            <a href="https://thewonderserver.com/privacy">Privacy policy</a>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </footer>
+</body>
+<script src="app.js"></script>
+</html>
